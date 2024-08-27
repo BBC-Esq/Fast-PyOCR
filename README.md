@@ -1,5 +1,5 @@
 # Fast-PyOCR
-Simple, fase, and high-quality OCR of pdf.  Period.
+Simple, fast, and high-quality OCR of pdf.  Period.
 
 ## Requirements
 * Windows 64-bit
