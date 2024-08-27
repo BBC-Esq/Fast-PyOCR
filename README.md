@@ -6,7 +6,7 @@ Simple and reliable script to conduct high-quality fast OCR on a PDF.
 * Python 3.11.x
 
 ## Usage
-This script can be run both by itself to process a single .pdf file or as a module to be called from another script in your program.
+This script can be run by itself to process a single .pdf file or as a module to be called from another script in your program.
 
 ## Installation and Standalone Usage
 
