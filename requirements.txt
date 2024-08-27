@@ -1,0 +1,10 @@
+pip install https://github.com/simonflueckiger/tesserocr-windows_build/releases/download/tesserocr-v2.7.0-tesseract-5.3.4/tesserocr-2.7.0-cp311-cp311-win_amd64.whl --no-deps
+# for windows 32-bit
+pip install https://github.com/simonflueckiger/tesserocr-windows_build/releases/download/tesserocr-v2.7.0-tesseract-5.3.4/tesserocr-2.7.0-cp311-cp311-win32.whl  --no-deps
+pip install tessdata==1.0.0 --no-deps
+pip install tessdata.eng==1.0.0 --no-deps
+pip install pillow==10.4.0 --no-deps
+pip install pymupdf==1.24.9
+
+# Additional languages can be manually downloaded here:
+# https://github.com/tesseract-ocr/tessdata
