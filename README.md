@@ -78,7 +78,7 @@ def setup_environment():
 ## Installing on Non-Windows Systems
 I've only tested this on Python 3.11.x and Windows 64-bit.  To expand this script, you'll need different wheels for Linux, MacOS, Windows 32-bit:
 * Additional Windows Wheels Here
-   > https://github.com/simonflueckiger/tesserocr-windows_build/releases/tag/tesserocr-v2.7.0-tesseract-5.3.4
+   > https://github.com/simonflueckiger/tesserocr-windows_build/releases
 * Wheels for Other Platforms Here:
    > https://github.com/sirfz/tesserocr/releases/tag/v2.7.1
 
