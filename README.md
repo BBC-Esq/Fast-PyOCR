@@ -1,5 +1,5 @@
 # Fast-PyOCR
-Simple and reliable script to conduct high-quality fast OCR on a PDF.
+Simple, fase, and high-quality OCR of pdf.  Period.
 
 ## Requirements
 * Windows 64-bit
