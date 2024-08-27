@@ -56,8 +56,8 @@ print(ocr_text)  # Or do something else with the OCR text
 ```
 
 ## OCR Languages Other Than English
-This program comes the standard ```pytesseract``` training data for English.  To use it with other langauges you should download the appropriate language training data file from here:
-   > https://github.com/tesseract-ocr/tessdata
+This program comes the standard ```pytesseract``` training data for English.  To use it with other langauges you should download the appropriate language training data file from here, but make sure and save it to the appropriate directory:
+   > [traineddata.md](https://github.com/BBC-Esq/Fast-PyOCR/blob/main/traineddata.md)
 
 On Windows systems when using my installation method (i.e. ```setup_windows.py```, which uses ```pip```), you must place these additional files in the ```tessdata``` folder, which, in turn, is within the ```share``` in the directory where your program files reside.
    > Here is a picture of what it looks like before adding any training data besides the default English:<br>
