@@ -84,3 +84,11 @@ I've only tested this on Python 3.11.x and Windows 64-bit.  To expand this scrip
 
 You'll also need to make sure you manually install the other libraries within the ```other_libraries``` and ```full_install_libraries``` lists within ```setup_windows.py```.
 
+# Thanks
+This repo wouldn't have been possible without the following repos:
+
+https://github.com/sirfz/tesserocr
+
+https://github.com/simonflueckiger/tesserocr-windows_build
+
+https://github.com/tesseract-ocr/tesseract
