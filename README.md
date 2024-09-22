@@ -64,7 +64,7 @@ On Windows systems when using my installation method (i.e. ```setup_windows.py``
    >  ![image](https://github.com/user-attachments/assets/d2c2e0e5-e18d-4ef3-a9e1-2158399b406b)
 
 I am not knowledgeable about other installation methods - e.g. Poetry or Conda - so you'll have to figure out where the relevant folder is if you use those methods.<br>
-If you use another method, you MUSE MODIFY this portion of the script to accurately look for the necessary training data:
+If you use another method, you MUST MODIFY this portion of the script to accurately look for the necessary training data:
 ```
 def setup_environment():
     total_cores = os.cpu_count()
