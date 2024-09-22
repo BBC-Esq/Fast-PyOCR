@@ -102,14 +102,14 @@ def install_libraries_with_deps(libraries):
     return failed_installations, multiple_attempts
 
 other_libraries = [
-    "https://github.com/simonflueckiger/tesserocr-windows_build/releases/download/tesserocr-v2.7.1-tesseract-5.4.1/tesserocr-2.7.1-cp311-cp311-win_amd64.whl",
-    "tessdata==1.0.0",
-    "tessdata.eng==1.0.0",
+    "https://github.com/simonflueckiger/tesserocr-windows_build/releases/download/tesserocr-v2.7.0-tesseract-5.3.4/tesserocr-2.7.0-cp311-cp311-win_amd64.whl",
     "pillow==10.4.0"
 ]
 
 full_install_libraries = [
-    "pymupdf==1.24.9"
+    "pymupdf==1.24.9",
+    "tessdata.eng==1.0.0",
+    "tessdata==1.0.0",
 ]
 
 # 1. upgrade pip, setuptools, wheel
